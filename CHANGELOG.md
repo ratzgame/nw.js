@@ -1,3 +1,36 @@
+0.17.5 / 09-28-2016
+===================
+- Update Node.js to [6.7.0](https://nodejs.org/en/blog/release/v6.7.0/)
+- Fix: Segfault when using additional_trust_anchors [(#5279)](https://github.com/nwjs/nw.js/issues/5279)
+- [doc] update known issues (removed fixed items)
+
+0.17.4 / 09-20-2016
+===================
+- Update Node.js to [6.6.0](https://nodejs.org/en/blog/release/v6.6.0/)
+- Fix: Remove dialog when running on read only volumes (.dmg) [(#5309)](https://github.com/nwjs/nw.js/issues/5309)
+- Fix: window events on remote pages not firing after reloading [(#5312)](https://github.com/nwjs/nw.js/issues/5312)
+- Fix: remove limitation of dom storage quota
+- Fix: chrome.app.window reference lost after reload [(#5294)](https://github.com/nwjs/nw.js/issues/5294)
+- [doc] fix a typo in FAQ for AngularJS
+
+0.17.3 / 09-15-2016
+===================
+- Update Chromium to [53.0.2785.116](https://googlechromereleases.blogspot.com/2016/09/stable-channel-update-for-desktop_14.html)
+
+0.17.2 / 09-14-2016
+===================
+- Update Chromium to [53.0.2785.113](https://googlechromereleases.blogspot.com/2016/09/stable-channel-update-for-desktop_13.html)
+- Fix: chrome.app.window.getall() broken with remote pages windows [(#5181)](https://github.com/nwjs/nw.js/issues/5181)
+- Fix: background page was destroyed when "main" points to remote pages [(#5282)](https://github.com/nwjs/nw.js/issues/5282)
+
+0.17.1 / 09-08-2016
+===================
+- Update Chromium to [53.0.2785.101](https://googlechromereleases.blogspot.com/2016/09/stable-channel-update-for-desktop.html)
+- Fix: Failed to load node library (liblibnode.dylib) on child_process.fork [(#5269)](https://github.com/nwjs/nw.js/issues/5269)
+- Fix: ia32 package file name [(#5258)](https://github.com/nwjs/nw.js/issues/5258)
+- Fix: typos in common.gypi to prevent nw-gyp failure
+- [docs] new ffmpeg dll build docs for GN [(#5263)](https://github.com/nwjs/nw.js/issues/5263)
+
 0.17.0 / 08-31-2016
 ===================
 - Update Chromium to [53.0.2785.89](http://googlechromereleases.blogspot.com/2016/08/stable-channel-update-for-desktop_31.html)
